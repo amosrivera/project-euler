@@ -8,7 +8,7 @@ def get_max_factorial(number):
 
     while (reduced > 1):
         if candidate > limit: 
-            # number has been reduced to a prime
+            # number is or has been reduced to a prime
             max_f = reduced
             break
 
