@@ -17,7 +17,7 @@ def get_max_factorial(number):
             reduced = reduced // candidate
             limit = sqrt(reduced)
         else:
-            candidate += 1
+            candidate = 3 if candidate == 2 else candidate + 2
 
     if not max_f:
         max_f = number
